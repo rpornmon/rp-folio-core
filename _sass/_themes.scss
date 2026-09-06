@@ -78,13 +78,13 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{v.$grey-color-dark};
+  --global-bg-color: #15141b;
   --global-code-bg-color: #{v.$code-bg-color-dark};
   --global-text-color: #{v.$grey-color-light};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$cyan-color};
-  --global-2nd-color: #{v.$cyan-color};
-  --global-3rd-color: #{v.$cyan-color};
+  --global-theme-color: #a277ff;
+  --global-2nd-color: #61ffca;
+  --global-3rd-color: #ffca85;
   --global-hover-color: #{v.$cyan-color};
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-light};
