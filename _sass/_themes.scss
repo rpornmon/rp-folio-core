@@ -82,9 +82,9 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{v.$code-bg-color-dark};
   --global-text-color: #{v.$text-color-dark};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: $aura-theme-purple;
-  --global-2nd-color: $aura-theme-green;
-  --global-3rd-color: $aura-theme-orange;
+  --global-theme-color: #{v.$aura-theme-purple};
+  --global-2nd-color: #{v.$aura-theme-green};
+  --global-3rd-color: #{v.$aura-theme-orange};
   --global-hover-color: #{v.$cyan-color};
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-light};
