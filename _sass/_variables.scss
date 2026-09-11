@@ -26,8 +26,9 @@ $yellow-color: #efcc00 !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #1c1c1d;
+$grey-color-dark: #15141b;
 $grey-900: #212529;
+$text-color-dark: #edecee;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
@@ -36,6 +37,18 @@ $black-color: #000000 !default;
 
 $code-bg-color-light: rgba($purple-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
+
+// Custom colors
+$light-theme-bg: #f4fcf5;
+$light-theme-text: #06180a;
+$light-theme-green: #4cc05b;
+$light-theme-pink: #dd8ee1;
+$light-theme-red: #d66770;
+
+$aura-theme-purple: #a277ff;
+$aura-theme-green: 	#61ffca;
+$aura-theme-orange:	#ffca85;
+$aura-theme-pink:	#f694ff;
 
 // Font awesome location
 $fa-font-path: "../webfonts";
