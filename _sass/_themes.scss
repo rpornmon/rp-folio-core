@@ -212,9 +212,9 @@ html[data-theme-setting="light"] {
 }
 
 /* Force links and ratings to drop their distinct Letterboxd blue/orange colors */
-#letterboxd-embed-wrapper-tc .letterboxd-embed-tc-year a,
-#letterboxd-embed-wrapper-tc .letterboxd-embed-tc-date a,
-#letterboxd-embed-wrapper-tc .letterboxd-embed-tc-review a,
+#letterboxd-embed-wrapper-tc .letterboxd-embed-tc-year,
+#letterboxd-embed-wrapper-tc .letterboxd-embed-tc-date,
+#letterboxd-embed-wrapper-tc .letterboxd-embed-tc-review,
 #letterboxd-embed-wrapper-tc a {
     color: var(--global-3rd-color); 
 }
