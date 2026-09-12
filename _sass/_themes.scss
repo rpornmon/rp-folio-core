@@ -211,6 +211,10 @@ html[data-theme-setting="light"] {
   color: var(--global-theme-color);
 }
 
+#letterboxd-embed-wrapper-tc .letterboxd-embed-tc-title {
+  color: var(--global-3rd-color); 
+}
+
 /* Force links and ratings to drop their distinct Letterboxd blue/orange colors */
 #letterboxd-embed-wrapper-tc .letterboxd-embed-tc-year,
 #letterboxd-embed-wrapper-tc .letterboxd-embed-tc-date,
