@@ -5,10 +5,6 @@
 @use "variables" as v;
 
 p,
-h3,
-h4,
-h5,
-h6,
 em,
 div,
 li {
@@ -24,6 +20,10 @@ h1 {
 }
 
 h2,
+h3,
+h4,
+h5,
+h6,
 strong {
   color: var(--global-2nd-color);
 }
