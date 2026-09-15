@@ -207,3 +207,6 @@
   {% include plugins/al_marimo_styles.liquid %}
 {% endif %}
 
+content_security_policy: >-
+  default-src 'self';
+  script-src 'self' 'unsafe-inline' https:;
