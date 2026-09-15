@@ -223,6 +223,12 @@ html[data-theme-setting="light"] {
 }
   
 html[data-theme="dark"] 
-  .tikzjax-container svg {
-    filter: invert(0.9) hue-rotate(180deg);
+  article svg[role="img"] [fill="#000"],
+  article svg[role="img"] [fill="black"] {
+    fill: currentColor;
+  }
+  
+  article svg[role="img"] [stroke="#000"] {
+    stroke: currentColor;
+  }
 }
