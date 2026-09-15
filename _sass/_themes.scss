@@ -221,3 +221,9 @@ html[data-theme-setting="light"] {
 #letterboxd-embed-wrapper-tc .letterboxd-embed-tc-review {
     color: var(--global-text-color); 
 }
+  
+html[data-theme='dark'] {
+  svg.tikzjax {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
