@@ -222,7 +222,8 @@ html[data-theme-setting="light"] {
     color: var(--global-text-color); 
 }
 
-html[data-theme='dark'] .tikzjax svg {
+html[data-theme='dark'] 
+  svg {
   /* Alternative quick fix if specific elements don't change color */
   filter: invert(1) hue-rotate(180deg);
 }
