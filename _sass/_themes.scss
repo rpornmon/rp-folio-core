@@ -222,8 +222,7 @@ html[data-theme-setting="light"] {
     color: var(--global-text-color); 
 }
   
-html[data-theme='dark'] {
-  svg.tikzjax {
-    filter: invert(1) hue-rotate(180deg);
-  }
+html[data-theme="dark"] 
+  .tikzjax-container svg {
+    filter: invert(0.9) hue-rotate(180deg);
 }
