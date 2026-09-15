@@ -221,14 +221,3 @@ html[data-theme-setting="light"] {
 #letterboxd-embed-wrapper-tc .letterboxd-embed-tc-review {
     color: var(--global-text-color); 
 }
-  
-html[data-theme="dark"] 
-  article svg[role="img"] [fill="#000"],
-  article svg[role="img"] [fill="black"] {
-    fill: currentColor;
-  }
-  
-  article svg[role="img"] [stroke="#000"] {
-    stroke: currentColor;
-  }
-}
