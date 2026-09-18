@@ -20,6 +20,22 @@
   }
 }
 
+  /* By default (Light Mode) */
+  .logo-dark {
+    display: none !important;
+  }
+  .logo-light {
+    display: inline-block !important;
+  }
+
+  /* When al-folio toggles to Dark Mode */
+  html[data-theme='dark'] .logo-light {
+    display: none !important;
+  }
+  html[data-theme='dark'] .logo-dark {
+    display: inline-block !important;
+  }
+
 @media (max-width: 575.98px) {
   .navbar {
     .navbar-toggler-main {
@@ -107,23 +123,6 @@
   .navbar-brand {
     color: var(--global-text-color);
   }
-
-  /* By default (Light Mode) */
-  .logo-dark {
-    display: none !important;
-  }
-  .logo-light {
-    display: inline-block !important;
-  }
-
-  /* When al-folio toggles to Dark Mode */
-  html[data-theme='dark'] .logo-light {
-    display: none !important;
-  }
-  html[data-theme='dark'] .logo-dark {
-    display: inline-block !important;
-  }
-
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
