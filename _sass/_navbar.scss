@@ -108,22 +108,20 @@
     color: var(--global-text-color);
   }
 
-  .navbar-brand-logo {
-      /* By default (Light Mode) */
-      .logo-dark {
-        display: none !important;
-      }
-      .logo-light {
-        display: inline-block !important;
-      }
-    
-      /* When al-folio toggles to Dark Mode */
-      html[data-theme='dark'] .logo-light {
-        display: none !important;
-      }
-      html[data-theme='dark'] .logo-dark {
-        display: inline-block !important;
-      }
+  /* By default (Light Mode) */
+  .logo-dark {
+    display: none !important;
+  }
+  .logo-light {
+    display: inline-block !important;
+  }
+
+  /* When al-folio toggles to Dark Mode */
+  html[data-theme='dark'] .logo-light {
+    display: none !important;
+  }
+  html[data-theme='dark'] .logo-dark {
+    display: inline-block !important;
   }
 
 
