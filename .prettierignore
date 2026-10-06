@@ -12,3 +12,5 @@ _scripts/**
 **/*.liquid.js
 **/*.js.liquid
 _sass/font-awesome/**
+assets/css/tailwind.css
+assets/css/bootstrap-compat.css
