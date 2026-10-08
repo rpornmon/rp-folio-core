@@ -22,9 +22,6 @@ jobs:
 
       - name: Install JS lint deps
         run: npm ci
-        
-      - name: Install Prettier 
-        run: npx prettier --write .
 
       - name: Run prettier lint
         run: npm run lint:prettier
